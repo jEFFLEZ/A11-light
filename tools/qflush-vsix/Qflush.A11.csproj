@@ -1,0 +1,21 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <TargetFramework>net48</TargetFramework>
+    <OutputType>Library</OutputType>
+    <AssemblyName>Qflush.A11</AssemblyName>
+    <RootNamespace>Qflush.A11</RootNamespace>
+    <GeneratePackageOnBuild>false</GeneratePackageOnBuild>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.Web.WebView2" Version="1.0.1343.42" />
+    <PackageReference Include="Microsoft.VisualStudio.Shell.Framework" Version="17.6.33019.373" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Compile Include="QflushToolWindow.cs" />
+    <Compile Include="QflushToolWindowCommand.cs" />
+    <Compile Include="QflushToolWindowControl.xaml.cs" />
+    <None Include="QflushToolWindowControl.xaml" />
+  </ItemGroup>
+</Project>

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PackageManifest Version="2.0.0" xmlns="http://schemas.microsoft.com/developer/vsx-schema/2011">
+  <Metadata>
+    <Identity Language="en-US" Version="1.0" Id="Qflush.A11" />
+    <DisplayName>QFLUSH for Visual Studio</DisplayName>
+    <Description>Integration of QFLUSH / A-11 into Visual Studio 2022.</Description>
+    <MoreInfo>https://funesterie.pro</MoreInfo>
+    <Repository Service="GitHub" Url="https://github.com/jEFFLEZ/a11" />
+    <Icon>Images\icon.png</Icon>
+    <PreviewImage>Images\preview.png</PreviewImage>
+    <Tags>QFLUSH;A-11;WebView2;VSIX</Tags>
+    <Author>Funesterie</Author>
+  </Metadata>
+  <Installation>
+    <InstallationTarget Id="Microsoft.VisualStudio.Community" Version="17.0" />
+  </Installation>
+</PackageManifest>

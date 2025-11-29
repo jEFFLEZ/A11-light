@@ -1,0 +1,8 @@
+is_global = true
+build_property.RootNamespace = Qflush.A11
+build_property.ProjectDir = D:\A11\tools\qflush-vsix\
+build_property.EnableComHosting = 
+build_property.EnableGeneratedComInterfaceComImportInterop = 
+build_property.CsWinRTUseWindowsUIXamlProjections = false
+build_property.EffectiveAnalysisLevelStyle = 
+build_property.EnableCodeStyleSeverity = 
